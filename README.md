@@ -2,8 +2,8 @@
 A simple SPI driver for the APA102/SK9822 Pixel Shipset on the NanoPi Neo Air board
 
 Hardware you need:
-- NanoPi Neo Ari board with WIFI Antena connected
-- A Serial link from your pc to the Nano pi Air
+- NanoPi Neo Air board with WIFI Antena connected http://www.friendlyarm.com/index.php?route=product/product&path=69&product_id=151
+- A Serial link from your pc to the Nano pi Air http://www.friendlyarm.com/index.php?route=product/product&product_id=178
 - An 8GB or larger Micro SD Card
 
 Steps to get the board Running:
@@ -17,7 +17,7 @@ Steps to get the board Running:
 8. type in "eflasher", select the system you want to burn(there is only 1) and burn it. This will load the OS onto the onboard 8gb EMMC chip. Once completed, itw ill tell you to power off. Disconnect the Serial link(as it will keep the board powered), then power off the boards power link
 9. Remove the SD card, power it on and reconect the Serial link log on again
 10. Set up WIFI as per http://wiki.friendlyarm.com/wiki/index.php/NanoPi_NEO_Air#Wireless_Connection then shutdown the board, disconect the serial link and power off
-11. POwer it on and connect via SSH to verify its online
+11. Power it on and connect via SSH to verify its online
 
 Steps to installing the C Hardware library provided by Friendly Arm https://github.com/friendlyarm/matrix
 1. Log in via SSH as U: root P: fa , feel free to change the root password :)
