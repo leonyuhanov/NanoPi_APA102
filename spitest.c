@@ -1,5 +1,8 @@
 #include <stdio.h>
-#include "libfahw.h"
+extern "C" {
+  #include "libfahw.h"
+}
+
 
 
 const short int numLeds = 12;
